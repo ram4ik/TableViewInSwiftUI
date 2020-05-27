@@ -13,6 +13,10 @@
 		959E2997247E72BE0034A397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959E2996247E72BE0034A397 /* Assets.xcassets */; };
 		959E299A247E72BE0034A397 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959E2999247E72BE0034A397 /* Preview Assets.xcassets */; };
 		959E299D247E72BE0034A397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959E299B247E72BE0034A397 /* LaunchScreen.storyboard */; };
+		959E29A6247E739F0034A397 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E29A5247E739F0034A397 /* Friend.swift */; };
+		959E29A8247E73BF0034A397 /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E29A7247E73BF0034A397 /* FriendList.swift */; };
+		959E29AB247E74030034A397 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E29AA247E74030034A397 /* Data.swift */; };
+		959E29AE247E74A30034A397 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E29AD247E74A30034A397 /* ListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		959E2999247E72BE0034A397 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		959E299C247E72BE0034A397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		959E299E247E72BE0034A397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959E29A5247E739F0034A397 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		959E29A7247E73BF0034A397 /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
+		959E29AA247E74030034A397 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		959E29AD247E74A30034A397 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,9 @@
 		959E298F247E72BC0034A397 /* TableViewInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				959E29AC247E74930034A397 /* DataModel */,
+				959E29A9247E73F20034A397 /* Data */,
+				959E29A4247E738F0034A397 /* Model */,
 				959E2990247E72BC0034A397 /* AppDelegate.swift */,
 				959E2992247E72BC0034A397 /* SceneDelegate.swift */,
 				959E2994247E72BC0034A397 /* ContentView.swift */,
@@ -73,6 +84,31 @@
 				959E2999247E72BE0034A397 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		959E29A4247E738F0034A397 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				959E29A5247E739F0034A397 /* Friend.swift */,
+				959E29A7247E73BF0034A397 /* FriendList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		959E29A9247E73F20034A397 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				959E29AA247E74030034A397 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		959E29AC247E74930034A397 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				959E29AD247E74A30034A397 /* ListRow.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				959E2991247E72BC0034A397 /* AppDelegate.swift in Sources */,
+				959E29AB247E74030034A397 /* Data.swift in Sources */,
+				959E29A8247E73BF0034A397 /* FriendList.swift in Sources */,
 				959E2993247E72BC0034A397 /* SceneDelegate.swift in Sources */,
 				959E2995247E72BC0034A397 /* ContentView.swift in Sources */,
+				959E29AE247E74A30034A397 /* ListRow.swift in Sources */,
+				959E29A6247E739F0034A397 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
